@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int people,candies,x,y;
+
+int main()
+{
+    cout << "how much do you have people in your class: ";
+    cin >> people;
+    cout << "How much do you have candies: ";
+    cin >> candies;
+    x = candies/(people - 1);
+    cout << endl << "candies for people: "<<x;
+    y = candies%(people - 1);
+    cout << endl << "candies for you: "<<y;
+    return 0;
+}
