@@ -1,2 +1,2 @@
-# First-steps-in-C-
+# First-steps-in-C++
 I show my first programs in C++
