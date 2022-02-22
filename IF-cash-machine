@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int pin;
+
+int main()
+{
+    cout << "Enter your pin: " << endl;
+    cin >> pin;
+    if(pin==1234){
+        cout << "Hello" << endl;
+    }else{
+        cout << "PIN is not correct" << endl;
+
+    }
+    return 0;
+}
