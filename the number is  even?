@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Enter number" << endl;
+    int number;
+    cin >> number;
+    if(number%2==0)
+        {
+            cout << "the number is even";
+        }else
+        {
+            cout << "the number is not even";
+        }
+
+    return 0;
+}
