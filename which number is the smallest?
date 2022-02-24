@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Enter 3 numbers: " << endl;
+    int number1;
+    int number2;
+    int number3;
+    cout << "Enter number One";
+    cin >> number1;
+    cout << "Enter number two";
+    cin >> number2;
+    cout << "Enter number three";
+    cin >> number3;
+
+    if(number1<number2&&number1<number3)
+        {
+            cout << " number one is smallest ";
+        }else if (number2<number1&&number2<number3)
+        {
+            cout << " number two is smallest ";
+        }else if(number3<number1&&number3<number2)
+        {
+            cout << " number three is smallest ";
+        }
+    return 0;
+}
